@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6728F77F-5808-48CB-A9C4-A23BA13E199B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{BD2B6B55-9B70-485F-AAE0-C0CC809AB6D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Playstation", "Playstation", "{BAC63604-6FFA-499C-A070-E6B5B96C73A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xbox", "Xbox", "{48F1E541-75F0-4EE7-BB72-D8675AECCF6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playstation.Api", "Playstation.Api\Playstation.Api.csproj", "{2A84C804-6524-4A85-A718-B8278D9CEB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playstation.Domain", "Playstation.Domain\Playstation.Domain.csproj", "{87F62393-DAEA-482C-AD89-A6FA1FADF60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbox.Domain", "Xbox.Domain\Xbox.Domain.csproj", "{548F9AA6-AD11-4180-9272-A9A7C9F13706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A84C804-6524-4A85-A718-B8278D9CEB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A84C804-6524-4A85-A718-B8278D9CEB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A84C804-6524-4A85-A718-B8278D9CEB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A84C804-6524-4A85-A718-B8278D9CEB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F62393-DAEA-482C-AD89-A6FA1FADF60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F62393-DAEA-482C-AD89-A6FA1FADF60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F62393-DAEA-482C-AD89-A6FA1FADF60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F62393-DAEA-482C-AD89-A6FA1FADF60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548F9AA6-AD11-4180-9272-A9A7C9F13706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548F9AA6-AD11-4180-9272-A9A7C9F13706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548F9AA6-AD11-4180-9272-A9A7C9F13706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548F9AA6-AD11-4180-9272-A9A7C9F13706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAC63604-6FFA-499C-A070-E6B5B96C73A6} = {6728F77F-5808-48CB-A9C4-A23BA13E199B}
+		{48F1E541-75F0-4EE7-BB72-D8675AECCF6D} = {6728F77F-5808-48CB-A9C4-A23BA13E199B}
+		{2A84C804-6524-4A85-A718-B8278D9CEB94} = {BAC63604-6FFA-499C-A070-E6B5B96C73A6}
+		{87F62393-DAEA-482C-AD89-A6FA1FADF60E} = {BAC63604-6FFA-499C-A070-E6B5B96C73A6}
+		{548F9AA6-AD11-4180-9272-A9A7C9F13706} = {48F1E541-75F0-4EE7-BB72-D8675AECCF6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {540DA2BA-E8B0-4813-904A-5D75B94F7433}
+	EndGlobalSection
+EndGlobal
